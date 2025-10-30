@@ -1,0 +1,17 @@
+name: "Exergy Heat Shell Tools"
+description: "Exergy Heat Shell Tools"
+version: "1.0.0"
+slug: "exergyheat-shell"
+init: false
+startup: services
+boot: manual
+full_access: true
+privileged:
+  - NET_ADMIN
+  - SYS_ADMIN
+  - NET_RAW
+ingress: true
+ingress_port: 7681
+arch:
+  - aarch64
+  - amd64
